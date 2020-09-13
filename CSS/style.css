@@ -1,0 +1,78 @@
+body { 
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+background-color: black; 
+}
+
+.area-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#area {
+	width: 300px;
+	height: 300px;
+	background-color: gold;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.box {
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	color: black;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	font-size: 50px;
+	padding: 25px 0px 0px 0px;
+	font-weight: bold;
+
+}
+h1 { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px 10px 10px; 
+	color: white;
+	border: 1px solid white;
+	border-radius: 100px;
+}
+.list {
+	color: gold;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	line-height: 1.5;
+}
+h2 {
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 100px;
+	color: white;
+}
+.reset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.reset a {
+
+text-decoration: none;
+font-size: 30px;
+color: black;
+font-weight: bold;
+}
+.reset button {
+	padding: 10px 50px;
+	background-color: gold;
+	box-shadow: 1px 1px 10px gray;
+
+}
